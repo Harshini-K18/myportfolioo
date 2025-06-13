@@ -1,0 +1,102 @@
+/* --- Navbar Styles --- */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: #111;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 25px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Links */
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+  padding: 5px 0;
+  transition: color 0.3s ease;
+}
+
+.nav-links a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #3722bb; /* Gold underline */
+  transition: width 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #005eff;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+}
+
+
+/* Hamburger Icon */
+.menu-icon {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+  justify-content: left;
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 60px;
+    right: 10px; /* adjust this to move left */
+    background-color: #222;
+    padding: 15px;
+    width: 180px;
+    border-radius: 5px;
+    flex-direction: column;
+    display: none;
+    z-index: 1000;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+}
+
+/* Optional fix for content hidden behind fixed navbar */
+#home {
+  padding-top: 80px;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+  .nav-links a:hover {
+    color: #00bfff; /* DeepSkyBlue for small screens */
+  }
+
+  .nav-links a:hover::after {
+    width: 0%; /* remove underline on mobile */
+  }
+}

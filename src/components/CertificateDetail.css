@@ -1,0 +1,209 @@
+/* ========== Section Entry Animation ========== */
+.cert-detail-section {
+  padding: 3rem 2rem;
+  background-color: #24133e;
+  color: #d7d7d7;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+  align-items: center;
+  text-align: center;
+  animation: fadeSlideUp 0.8s ease-in-out both;
+}
+
+/* ========== Section Heading Animation ========== */
+.cert-detail-section h2 {
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 15px;
+  color: #d7d7d7;
+  background: #0a0d44;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  animation: fadeIn 1s ease-out;
+}
+
+/* ========== Grid Animation ========== */
+.cert-detail-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  margin-top: 2rem;
+  justify-items: center;
+}
+
+/* ========== Card Animation ========== */
+.cert-detail-card {
+  background: #f0f0f0;
+  border-radius: 20px;
+  padding: 20px;
+  width: 90%;
+  max-width: 320px;
+  text-align: center;
+  color: #222;
+  box-shadow: 0 0 15px rgba(0, 208, 255, 0.2);
+  transition: all 0.4s ease-in-out;
+  position: relative;
+  animation: fadeZoomIn 0.6s ease forwards;
+}
+
+.cert-detail-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(0, 123, 255, 0.6);
+}
+
+/* ========== Certificate Image Animation ========== */
+.cert-detail-image {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+/* ========== Card Title ========== */
+.cert-detail-title {
+  margin-top: 12px;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #222;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+/* ========== Modal ========== */
+.cert-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(10, 10, 10, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.cert-modal {
+  background: #ffffff;
+  padding: 28px;
+  border-radius: 20px;
+  max-width: 95%;
+  max-height: 90%;
+  text-align: center;
+  color: #111;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  animation: scaleIn 0.4s ease-in-out;
+}
+
+.zoomed-image {
+  max-width: 100%;
+  max-height: 70vh;
+  border-radius: 14px;
+  margin-bottom: 14px;
+  object-fit: contain;
+}
+
+/* ========== Buttons ========== */
+.download-btn,
+.close-btn {
+  margin: 10px;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 10px;
+  background-color: #2f80ed;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s;
+  box-shadow: 0 0 10px rgba(47, 128, 237, 0.4);
+  animation: fadeIn 1s ease;
+}
+
+.download-btn:hover,
+.close-btn:hover {
+  background-color: #1c60b3;
+  box-shadow: 0 0 16px rgba(47, 128, 237, 0.7);
+  transform: scale(1.05);
+}
+
+/* ========== Back Button ========== */
+.back-btn {
+  position: absolute;
+  top: 24px;
+  right: 28px;
+  padding: 12px 18px;
+  font-size: 15px;
+  background-color: #0a0d44;
+  color: white;
+  border-radius: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  z-index: 1100;
+  border: 2px solid #00d0ff;
+  box-shadow: 0 0 14px rgba(47, 128, 237, 0.4);
+  transition: background-color 0.2s, box-shadow 0.3s, transform 0.2s;
+  animation: fadeInTop 0.7s ease-in-out;
+}
+
+.back-btn:hover {
+  background-color: #1c60b3;
+  box-shadow: 0 0 20px rgba(47, 128, 237, 0.7);
+  transform: scale(1.05);
+}
+
+/* ========== Keyframes ========== */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeZoomIn {
+  from {
+    opacity: 0;
+    transform: scale(0.8) translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+@keyframes fadeInTop {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
