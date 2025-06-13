@@ -492,7 +492,7 @@ body {
   animation-delay: 0.3s;
 }
 ::selection {
-  background: #fc5c7d;
+  background: #0b167d;
   color: #fff;
 }
 /* Fade-in titles inside section */
@@ -677,7 +677,7 @@ body {
 
 
 .highlight-tech {
-  background-color: #ff00bb;
+  background-color: #ec38bc;
   color: white;
   padding: 3px 8px; /* Reduced padding */
   border-radius: 14px; /* Slightly smaller pill shape */
@@ -708,7 +708,7 @@ body {
   transform: translateY(40px);
   animation: sectionFadeIn 1s cubic-bezier(.4, 2, .6, 1) forwards;
   animation-delay: 0.2s;
-  color: #ec02c9;
+  color: #ec38bc;
   font-family: 'Segoe UI', sans-serif;
 }
 
