@@ -18,7 +18,6 @@ const Navbar = () => {
         <HashLink smooth to="/#education">Education</HashLink>
         <HashLink smooth to="/#skills">Skills</HashLink>
         <HashLink smooth to="/#projects">Projects</HashLink>
-        <HashLink smooth to="/#education">Education</HashLink>
         <HashLink smooth to="/#internship">Internship</HashLink>
         <HashLink smooth to="/#certifications">Certifications</HashLink>
         <HashLink smooth to="/#contact">Contact</HashLink>
