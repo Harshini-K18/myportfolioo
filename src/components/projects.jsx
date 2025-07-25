@@ -24,7 +24,7 @@ const projects = [
     title: "Online Learning Website",
     description: "Responsive e-learning platform focusing on UI/UX using ReactJS.",
     tech: "HTML, CSS, JavaScript, ReactJS",
-    
+    link: "https://github.com/Harshini-K18/Online-Learning-Platform"
   },
   {
     title: "Bitcoin Price Forecasting",
