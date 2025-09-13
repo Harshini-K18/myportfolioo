@@ -2,8 +2,8 @@ import React from 'react';
 import bubbleIcon from '../assets/bubble.png'; // adjust the path if needed
 
 const skills = [
-  "Power BI", "HTML", "CSS", "JavaScript", "Python", "SQL", "MongoDB", "MySQL", "Tableau",
-  "Git", "GitHub", "ReactJS", "Django", "Bootstrap", "R", "Flask", "Java", "C"
+  "Power BI", "HTML", "CSS", "JavaScript", "Python", "SQL", "Tableau",
+  "Git", "GitHub", "ReactJS", "C++" , "Java", "C"
 ];
 
 export default function Skills() {

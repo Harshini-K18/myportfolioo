@@ -10,7 +10,7 @@ const projects = [
   },
   {
     title: "Chatroom Application",
-    description: "Real-time chatroom built with Django and Bootstrap. Includes user authentication and responsive UI.",
+    description: "Chatroom application built with Django and Bootstrap. Includes user authentication and responsive UI.",
     tech: "Django, HTML, CSS, JavaScript, Git",
     link: "https://github.com/Harshini-K18/chatroom"
   },
@@ -23,14 +23,10 @@ const projects = [
   {
     title: "Online Learning Website",
     description: "Responsive e-learning platform focusing on UI/UX using ReactJS.",
-    tech: "HTML, CSS, JavaScript, ReactJS",
+    tech: "HTML, CSS, JavaScript",
     link: "https://github.com/Harshini-K18/Online-Learning-Platform"
   },
-  {
-    title: "Bitcoin Price Forecasting",
-    description: "Forecasting Bitcoin prices using ARIMA, Holt-Winters, and Prophet in R.",
-    tech: "R, ARIMA, Prophet",
-  },
+  
   {
     title: "Student Attendance Management System",
     description: "Built a student attendance web app using Streamlit and MySQL with full CRUD functionality.",
