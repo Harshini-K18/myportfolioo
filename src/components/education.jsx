@@ -11,7 +11,7 @@ export default function Education() {
           <h3>RNS Institute of Technology</h3>
           <p className="edu-duration">(2022 – 2026)</p>
           <p>B.E. in Information Science & Engineering</p>
-          <p className="edu-score">CGPA: 8.62 / 10</p>
+          <p className="edu-score">CGPA: 8.8 / 10</p>
         </div>
 
         <div className="edu-card">

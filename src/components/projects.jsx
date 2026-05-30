@@ -34,10 +34,16 @@ const projects = [
     link: "https://github.com/Harshini-K18/Student-Attendance-management-system"
   },
   {
-    title: "Spotify Analysis",
-    description: "Conducted analysis and visualization of Spotify streaming data using Python libraries such as Pandas, NumPy, Matplotlib, and Seaborn.",
-    tech: "Python, Pandas, NumPy, Matplotlib, Seaborn",
-  }
+  title: "IntelliMeet – Meetings Made Seamless with AI",
+  description: "AI meeting bot for Google Meet, Zoom, and Microsoft Teams with real-time transcription, MoM generation, task extraction, Jira integration, analytics dashboard, and automated report sharing.",
+  tech: "React.js, Node.js, Express.js, LLM, Recall.ai API, JIRA, Chart.js",
+  link: "https://github.com/Harshini-K18/IntelliMeet"
+},
+{
+  title: "CineBot AI",
+  description: "AI-powered multi-agent movie assistant that classifies user queries and routes them to specialized AI agents for movie recommendations, plot explanations, cast information, awards, trivia, and general movie-related assistance.",
+  tech: "n8n, Groq API, LLaMA 3, HTML, CSS, JavaScript, Webhooks"
+}
 ];
 
 

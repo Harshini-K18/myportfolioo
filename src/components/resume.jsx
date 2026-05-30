@@ -6,8 +6,8 @@ export default function Resume() {
             <h2 className="bubble-heading">
         <img src={bubbleIcon} alt="Projects Icon" className="bubble-icon-img" />View My Resume</h2>
       <div className="contact-links">
-        <a href="/Harshini_Resume_Final.pdf" download target="_blank" rel="noopener noreferrer">Download Resume</a>
-        <a href="/Harshini_Resume_Final.pdf" target="_blank" rel="noopener noreferrer">View Online</a>
+        <a href="/Harshini_Resume_2026.pdf" download target="_blank" rel="noopener noreferrer">Download Resume</a>
+        <a href="/Harshini_Resume_2026.pdf" target="_blank" rel="noopener noreferrer">View Online</a>
       </div>
     </section>
   );

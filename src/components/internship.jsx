@@ -8,13 +8,6 @@ export default function Internship() {
               <img src={bubbleIcon} alt="Projects Icon" className="bubble-icon-img" />Internship</h2>
 
       <div className="education-grid vertical">
-        <div className="edu-card">
-          <h3>CodSoft Virtual Internship</h3>
-          <p className="edu-duration">(September 2024)</p>
-          <p>Role: Front-end Developer Intern</p>
-          <p className="edu-score">During a span of four weeks, I developed three front-end projects to enhance my web development skills. These include a responsive <strong>Portfolio Website</strong> built with HTML, CSS, and JavaScript to showcase my work, a clean and smooth <strong>Landing Page</strong> with intuitive navigation, and a <strong>basic Calculator</strong> capable of performing arithmetic operations using JavaScript.
-        </p>
-        </div>
 
         <div className="edu-card">
           <h3>RSC Systems Pvt Ltd</h3>
@@ -25,6 +18,20 @@ Collaborated with the team to build intuitive UI components and improve user exp
 Gained hands-on experience with React.js, including component-based architecture, props, state, and hooks.
 Strengthened skills in debugging, Git, and working in agile development environments.</p>
         </div>
+
+        <div className="edu-card">
+  <h3>Mphasis Limited</h3>
+  <p className="edu-duration">(February 2026 – May 2026)</p>
+  <p>Role: Trainee Associate Software Engineer Intern</p>
+  <p className="edu-score">
+    Worked as a <strong>Trainee Associate Software Engineer Intern</strong> at 
+    <strong> Mphasis</strong>, developing enterprise-level applications using 
+    <strong> C#, .NET, ASP.NET Core MVC, Web API, SQL Server, and Entity Framework Core</strong>. 
+    Implemented secure authentication and authorization mechanisms, developed modules for employee, skill, 
+    project, and requirement management, and contributed to a skill-based resource allocation system. 
+    Enhanced expertise in full-stack development, RESTful APIs, database design, and software engineering best practices.
+  </p>
+</div>
 
         {/* Add more internships similarly */}
       </div>
