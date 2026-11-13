@@ -43,6 +43,13 @@ const projects = [
   title: "CineBot AI",
   description: "AI-powered multi-agent movie assistant that classifies user queries and routes them to specialized AI agents for movie recommendations, plot explanations, cast information, awards, trivia, and general movie-related assistance.",
   tech: "n8n, Groq API, LLaMA 3, HTML, CSS, JavaScript, Webhooks"
+},
+{
+  title: "Zentra",
+  description: "An interactive brain training web application featuring fun games designed to improve cognitive skills including memory, math abilities, and reaction time.",
+  tech: "HTML, CSS, JavaScript",
+  link: "https://github.com/Harshini-K18/Zentra",
+  liveLink: "https://zentra-project.vercel.app/"
 }
 ];
 
@@ -79,6 +86,16 @@ export default function Projects() {
         </a>
       </div>
     )}
+     {proj.liveLink && (
+    <a
+      href={proj.liveLink}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="github-button"
+    >
+      Live Site →
+    </a>
+  )}
   </div>
 ))}
 

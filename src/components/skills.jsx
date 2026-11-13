@@ -2,7 +2,7 @@ import React from 'react';
 import bubbleIcon from '../assets/bubble.png'; // adjust the path if needed
 
 const skills = [
-  "HTML", "CSS", "JavaScript", "Python", "SQL",
+  "HTML", "CSS", "Python", "SQL",
   "Git", "GitHub", "ReactJS", "C++" , "Java", "C" , "C#" , "MongoDB"
 ];
 
