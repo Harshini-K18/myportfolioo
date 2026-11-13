@@ -10,7 +10,7 @@ export default function Contact() {
 
       <div className="contact-item">
         <FaEnvelope />
-        <span>harshinikrishnamurthy18@gmail.com</span>
+        <span>harshini.04k@gmail.com</span>
       </div>
 
       <div className="contact-item">
